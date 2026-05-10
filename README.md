@@ -9,11 +9,13 @@ Some challenges I faced:
 - Dynamically updating transfer rates. Likewise with the application, I did some hacky method. The advice I found online was to start a daemon?? I don't think its necessary, but so be it!
 - Learning even more libraries. I mentioned before I learned part of pystray, but using pyperclip and PIL as well was fun.
 ## Gallery
-<img width="147.33" height="307.66" alt="image" src="https://github.com/user-attachments/assets/c6e82147-c46b-45c4-8d9d-02a9d5e44e22" />
+<img width="185" height="123" alt="image" src="https://github.com/user-attachments/assets/8fb23333-b16b-4e51-bdc6-03547f74df9b" />
+
+<img width="262" height="116" alt="image" src="https://github.com/user-attachments/assets/2803836a-9d75-4f88-a32c-b4b9111d5b5b" />
 
 ## Features
-- A sidebar widget displaying information about: Local IP, Public IP, Location, ISP and Network Traffic.
-- A nice design that doesn't show the jarring design of normal Tkinter.
+- A SystemTray app displaying information about: Local IP, Public IP and Network Traffic.
+- Want to easily get your Local / Public IP? Just click on the menu item and its copied to your clipboard!
 - API Key that relies on the user, not the creator.
 
 ## Requirements
