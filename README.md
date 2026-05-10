@@ -1,14 +1,13 @@
-# IpDetailer App
-Simple application to show select information about an IP and network.
-Helped me learn about CustomTkinter.
+# IpDetailer Taskbar
+Simple SystemTray application to show select information about an IP and network.
+Helped me learn about pystray.
 
 ## About this project
 This was made after someone I know AI-generated some code which was: (a) Slow (b) Not working (c) Not functional. This is 1 of 3 repositories I have created that rewrote, fixed, and improved on the AI-generated slop.
 Some challenges I faced:
-- Using CustomTkinter. I had used normal Tkinter in class, but adapting the sloppy AI-produced CustomTkinter code to be feasible was also a challenge. Did you know the original couldn't fit every statistic onto the window without it cutting off, along with there being no titlebar to actually close the program?
-- Environment Variables. I didn't want my api key to public for everyone to use. So, I figured out about .env and how to get it to work in Python.
-- Updating a label dynamically. The transfer rates needed to be updating every second, but I figured out how to get it to change. Hackily, or not.
-
+- Using pystray. This is a library I have never used before. However, I figured out some of the ins-and-outs of it and managed to get a cool application.
+- Dynamically updating transfer rates. Likewise with the application, I did some hacky method. The advice I found online was to start a daemon?? I don't think its necessary, but so be it!
+- Learning even more libraries. I mentioned before I learned part of pystray, but using pyperclip and PIL as well was fun.
 ## Gallery
 <img width="147.33" height="307.66" alt="image" src="https://github.com/user-attachments/assets/c6e82147-c46b-45c4-8d9d-02a9d5e44e22" />
 
@@ -19,8 +18,11 @@ Some challenges I faced:
 
 ## Requirements
 - Python
-- Python customtkinter package (included as a git submodule)
-- My [ipdetails](https://github.com/jayrickaby/ipdetails) package
+- Python pystray package
+- Python pyperclip package
+- Python dotenv package
+- Python PIL package
+- My [ipdetails](https://github.com/jayrickaby/ipdetails) package (included as a git submodule)
 
 ## Licence
 Copyright © 2026 Jay Rickaby,
